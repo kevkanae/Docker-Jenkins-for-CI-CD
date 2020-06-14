@@ -13,6 +13,7 @@ Job 3: Manually the QA team will check (test) for the website running in dev-doc
 Linux and/or Windows 10 having Docker and Jenkins Installed
 A reliable browser
 Basic batch shell commands for either linux or powershell and for basic docker commands
+
 A. First We Build Ourselves a Docker Image Containing Only httpd or Apache2
 
 Using 'docker pull centos' we download the latest centos image
