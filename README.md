@@ -14,7 +14,7 @@ Linux and/or Windows 10 having Docker and Jenkins Installed
 A reliable browser
 Basic batch shell commands for either linux or powershell and for basic docker commands
 
-A. First We Build Ourselves a Docker Image Containing Only httpd or Apache2
+*A. First We Build Ourselves a Docker Image Containing Only httpd or Apache2*
 
 Using 'docker pull centos' we download the latest centos image
 We need a docker file having the following lines
@@ -32,9 +32,9 @@ ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]   #makes sure only httpd runs
 ```
 
 Then make sure your inside the directory where you have saved this Dockerfile (Dockerfile has no file format) and build your httpd image using
-docker build -t myweb . 
+`docker build -t myweb . `
 Here myweb is your image tag
 
-B. Now We Create 3 Jobs as Mentioned Earlier On Jenkins
+*B. Now We Create 3 Jobs as Mentioned Earlier On Jenkins*
 
 You can go ahead and check the article [here](https://www.linkedin.com/pulse/integrating-github-branches-jenkins-docker-kevin-daniel-goveas)
